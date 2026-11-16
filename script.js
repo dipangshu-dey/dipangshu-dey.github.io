@@ -857,7 +857,7 @@
   }
   function lbZoom(z, reset) {
     const img = $('.lb-img'); if (!img) return;
-    LB.z = Math.max(1, Math.min(5, z));
+    LB.z = Math.max(0.5, Math.min(5, z));
     if (LB.z === 1 || reset) { LB.x = 0; LB.y = 0; }
     img.style.transform = `translate(${LB.x}px, ${LB.y}px) scale(${LB.z})`;
     img.classList.toggle('zoomed', LB.z > 1);
