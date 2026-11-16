@@ -492,3 +492,10 @@ The homepage now shows separate counts for:
 - Projects: featured projects in `data/projects.json`.
 
 The Projects section heading and homepage statistic are both labelled simply **Projects**.
+
+
+## Profile photo and certificate preview update
+
+- Updated the homepage profile photo using the latest supplied JPEG.
+- Added JPEG previews for the Google Cybersecurity Professional Certificate, CNSP and CBTP certificates.
+- Kept the original PDF files and their download links. Certificate cards now preview the JPEG images instead of embedding the PDFs in an iframe, while the separate PDF action remains available for viewing/downloading the original document.

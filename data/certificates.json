@@ -17,7 +17,8 @@
     "pdf": "assets/certificates/google-cybersecurity-professional-certificate.pdf",
     "verifyUrl": "https://coursera.org/verify/professional-cert/MQIGFPQN7SST",
     "description": "Completed the nine-course professional certificate covering cybersecurity foundations, security risks, networks, Linux, SQL, assets and vulnerabilities, detection and response, Python automation, and career preparation.",
-    "visible": true
+    "visible": true,
+    "image": "assets/certificates/google-cybersecurity-professional-certificate.jpg"
   },
   {
     "title": "Certified Network Security Practitioner (CNSP) — with Merit",
@@ -28,7 +29,8 @@
     "pdf": "assets/certificates/certified-network-security-practitioner-cnsp.pdf",
     "verifyUrl": "https://pentestingexams.com/certificate-validation/",
     "description": "Successfully passed the Certified Network Security Practitioner examination with Merit.",
-    "visible": true
+    "visible": true,
+    "image": "assets/certificates/certified-network-security-practitioner-cnsp.jpg"
   },
   {
     "title": "Certified Blue Team Practitioner (CBTP) — with Merit",
@@ -39,6 +41,7 @@
     "pdf": "assets/certificates/certified-blue-team-practitioner-cbtp.pdf",
     "verifyUrl": "https://pentestingexams.com/certificate-validation/",
     "description": "Successfully passed the Certified Blue Team Practitioner examination with Merit.",
-    "visible": true
+    "visible": true,
+    "image": "assets/certificates/certified-blue-team-practitioner-cbtp.jpg"
   }
 ]
