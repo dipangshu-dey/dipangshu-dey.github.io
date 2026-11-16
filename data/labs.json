@@ -1,0 +1,12 @@
+{
+  "focusAreas": [
+    "Wazuh SIEM",
+    "Windows Event Logs",
+    "Sysmon",
+    "PowerShell Logs",
+    "Microsoft Defender Logs",
+    "Network Analysis",
+    "Incident Investigation"
+  ],
+  "entries": []
+}

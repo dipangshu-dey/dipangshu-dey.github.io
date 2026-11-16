@@ -1,0 +1,44 @@
+[
+  {
+    "title": "ThunderCipher Certified VAPT Practitioner (TC-VAPT)",
+    "issuer": "ThunderCipher",
+    "category": "certification",
+    "date": "2026-11-15",
+    "credentialId": "TC-2026-VAPT-IL1EN3",
+    "image": "assets/certificates/thundercipher-certified-vapt-practitioner.jpg",
+    "description": "Completed a 12-hour practical assessment covering network penetration testing, vulnerability assessment and exploitation, and privilege escalation techniques.",
+    "visible": true
+  },
+  {
+    "title": "Google Cybersecurity Professional Certificate",
+    "issuer": "Google / Coursera",
+    "category": "course",
+    "date": "2026-01-12",
+    "pdf": "assets/certificates/google-cybersecurity-professional-certificate.pdf",
+    "verifyUrl": "https://coursera.org/verify/professional-cert/MQIGFPQN7SST",
+    "description": "Completed the nine-course professional certificate covering cybersecurity foundations, security risks, networks, Linux, SQL, assets and vulnerabilities, detection and response, Python automation, and career preparation.",
+    "visible": true
+  },
+  {
+    "title": "Certified Network Security Practitioner (CNSP) — with Merit",
+    "issuer": "The SecOps Group / PentestingExams.com",
+    "category": "certification",
+    "date": "2026-11-15",
+    "credentialId": "12135576",
+    "pdf": "assets/certificates/certified-network-security-practitioner-cnsp.pdf",
+    "verifyUrl": "https://pentestingexams.com/certificate-validation/",
+    "description": "Successfully passed the Certified Network Security Practitioner examination with Merit.",
+    "visible": true
+  },
+  {
+    "title": "Certified Blue Team Practitioner (CBTP) — with Merit",
+    "issuer": "The SecOps Group / PentestingExams.com",
+    "category": "certification",
+    "date": "2026-11-14",
+    "credentialId": "12131728",
+    "pdf": "assets/certificates/certified-blue-team-practitioner-cbtp.pdf",
+    "verifyUrl": "https://pentestingexams.com/certificate-validation/",
+    "description": "Successfully passed the Certified Blue Team Practitioner examination with Merit.",
+    "visible": true
+  }
+]

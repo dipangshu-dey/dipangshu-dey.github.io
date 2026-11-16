@@ -1,0 +1,68 @@
+[
+  {
+    "id": "bittrace-v2",
+    "name": "BitTrace",
+    "subtitle": "Bitcoin Transaction Forensics and Investigation System",
+    "icon": "search",
+    "status": "",
+    "description": "A Bitcoin transaction forensics and investigation system designed to analyze transaction flows, identify suspicious patterns, and support blockchain investigations.",
+    "details": "",
+    "features": [
+      "Bitcoin address clustering",
+      "Peel-chain detection",
+      "Anomaly detection",
+      "Transaction flow visualization",
+      "Risk scoring",
+      "Threat intelligence matching",
+      "AI-assisted investigation",
+      "Automated forensic reporting"
+    ],
+    "tech": [
+      "Python",
+      "Streamlit",
+      "SQLite",
+      "Ollama",
+      "Data Analysis",
+      "Blockchain Investigation"
+    ],
+    "cover": "assets/projects/bittrace-v2/bittrace-logo.png",
+    "screenshots": [],
+    "github": "https://github.com/dipangshu-dey/BitTrace",
+    "demo": "",
+    "visible": true
+  },
+  {
+    "id": "phishguard-x",
+    "name": "PhishGuard X",
+    "subtitle": "Professional Phishing Detection and Analysis System",
+    "icon": "shield",
+    "status": "",
+    "description": "A phishing detection platform that analyzes different types of inputs and identifies potentially malicious content using rule-based and machine-learning techniques.",
+    "details": "",
+    "features": [
+      "URL analysis",
+      "Email analysis",
+      "SMS analysis",
+      "File path analysis",
+      "QR code scanning",
+      "Redirect chain analysis",
+      "Random Forest ML prediction",
+      "Risk scoring",
+      "WHOIS domain-age analysis",
+      "Forensic PDF reporting"
+    ],
+    "tech": [
+      "Python",
+      "Streamlit",
+      "Scikit-learn",
+      "SQLite",
+      "OpenCV",
+      "ReportLab"
+    ],
+    "cover": "assets/projects/phishguard-x/cover.png",
+    "screenshots": [],
+    "github": "https://github.com/dipangshu-dey/PhishGuard-X",
+    "demo": "",
+    "visible": true
+  }
+]

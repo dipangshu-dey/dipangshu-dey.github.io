@@ -1,0 +1,30 @@
+[
+  {
+    "degree": "MSc Cyber Security",
+    "institution": "National Forensic Sciences University (NFSU), Goa Campus",
+    "location": "Goa, India",
+    "duration": "2025 – 2027",
+    "status": "Pursuing",
+    "cgpa": "7.49",
+    "cgpaLabel": "Current CGPA",
+    "logo": "assets/images/education/nfsu-official-logo.png",
+    "logoText": "NFSU",
+    "notes": "",
+    "photos": [],
+    "visible": true
+  },
+  {
+    "degree": "Bachelor of Computer Applications (BCA)",
+    "institution": "M.E.S. Vasant Joshi College of Arts & Commerce, Goa",
+    "location": "Goa, India",
+    "duration": "2022 – 2025",
+    "status": "Completed",
+    "cgpa": "6.39",
+    "cgpaLabel": "CGPA",
+    "logo": "assets/images/education/mes-vasant-joshi-official-logo.jpg",
+    "logoText": "MES VJC",
+    "notes": "",
+    "photos": [],
+    "visible": true
+  }
+]

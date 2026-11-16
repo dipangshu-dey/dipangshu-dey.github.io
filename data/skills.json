@@ -1,0 +1,58 @@
+{
+  "categories": [
+    {
+      "name": "SOC & Security Operations",
+      "icon": "monitor",
+      "skills": [
+        { "name": "SIEM", "subtitle": "Security Information & Event Management", "icon": "layers" },
+        { "name": "Log Analysis", "subtitle": "", "icon": "file-text" },
+        { "name": "Security Monitoring", "subtitle": "", "icon": "activity" },
+        { "name": "Incident Response", "subtitle": "", "icon": "alert" },
+        { "name": "Threat Detection", "subtitle": "", "icon": "target" }
+      ]
+    },
+    {
+      "name": "Security Tools",
+      "icon": "shield",
+      "skills": [
+        { "name": "Wazuh", "subtitle": "Open-source SIEM / XDR", "icon": "shield" },
+        { "name": "Sysmon", "subtitle": "Windows system monitoring", "icon": "activity" },
+        { "name": "Wireshark", "subtitle": "Packet analysis", "icon": "network" },
+        { "name": "Nmap", "subtitle": "Network scanning", "icon": "target" },
+        { "name": "Burp Suite", "subtitle": "Web security testing", "icon": "bug" },
+        { "name": "Kali Linux", "subtitle": "", "icon": "terminal" }
+      ]
+    },
+    {
+      "name": "Networking",
+      "icon": "network",
+      "skills": [
+        { "name": "TCP/IP", "subtitle": "", "icon": "network" },
+        { "name": "DNS", "subtitle": "", "icon": "globe" },
+        { "name": "HTTP/HTTPS", "subtitle": "", "icon": "lock" },
+        { "name": "OSI Model", "subtitle": "", "icon": "layers" },
+        { "name": "Network Security", "subtitle": "", "icon": "shield" }
+      ]
+    },
+    {
+      "name": "Programming",
+      "icon": "code",
+      "skills": [
+        { "name": "Python", "subtitle": "", "icon": "code" },
+        { "name": "SQL", "subtitle": "", "icon": "database" },
+        { "name": "Bash", "subtitle": "", "icon": "terminal" }
+      ]
+    },
+    {
+      "name": "Cybersecurity Domains",
+      "icon": "scale",
+      "skills": [
+        { "name": "Digital Forensics", "subtitle": "", "icon": "fingerprint" },
+        { "name": "Threat Intelligence", "subtitle": "", "icon": "search" },
+        { "name": "Vulnerability Assessment", "subtitle": "", "icon": "bug" },
+        { "name": "GRC", "subtitle": "Governance, Risk & Compliance", "icon": "scale" },
+        { "name": "Risk Analysis", "subtitle": "", "icon": "bar-chart" }
+      ]
+    }
+  ]
+}

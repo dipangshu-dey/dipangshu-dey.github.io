@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Trisec CTF 2026 – Certificate of Participation",
+    "issuer": "National Forensic Sciences University, Goa Campus",
+    "platform": "NFSU Goa Campus",
+    "date": "2026-01-22",
+    "image": "assets/certificates/ctf/trisec-ctf-2026-nfsu.png",
+    "description": "Participated in Trisec CTF 2026, a cybersecurity Capture The Flag competition organized by NFSU Goa Campus on 22 January 2026.",
+    "visible": true
+  },
+  {
+    "title": "SecLeaf Q4 Operations CTF – Certificate of Participation",
+    "issuer": "SecLeaf",
+    "platform": "SecLeaf Q4 Operations",
+    "date": "2026-10-31",
+    "image": "assets/certificates/ctf/secleaf-q4-operations-ctf-2026.jpg",
+    "description": "Participated in SecLeaf Q4 Operations CTF on 31 October 2026. The certificate records the participant handle Lone_warrior and rank 134.",
+    "visible": true
+  },
+  {
+    "title": "LUN4R CTF 2026 Qualifiers – Certificate of Participation",
+    "issuer": "ROOT RIET",
+    "platform": "LUN4R CTF 2026",
+    "date": "2026-09-20",
+    "image": "assets/certificates/ctf/lun4r-ctf-2026.jpg",
+    "description": "Participated in the LUN4R CTF 2026 Qualifiers organized by ROOT RIET on 20 September 2026.",
+    "visible": true
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "name": "Dipangshu Dey",
+  "initials": "DD",
+  "title": "Cybersecurity | SOC Operations | GRC",
+  "badge": "SOC Analyst | GRC | Cybersecurity",
+  "greeting": "Hi, I'm",
+  "headline": "Cybersecurity postgraduate student interested in SOC Operations, Security Analysis and GRC.",
+  "intro": "I'm pursuing an MSc in Cyber Security and building practical skills in security monitoring, threat detection, incident response and governance, risk and compliance.",
+  "typing": [
+    "SOC Analyst",
+    "Cybersecurity Enthusiast",
+    "Security Operations",
+    "GRC Enthusiast"
+  ],
+  "photo": "assets/images/profile/dipangshu-profile.jpg",
+  "photoAlt": "Portrait of Dipangshu Dey",
+  "email": "",
+  "github": "https://github.com/dipangshu-dey",
+  "linkedin": "https://www.linkedin.com/in/dipangshu-dey-251a80264",
+  "resume": {
+    "file": "assets/resume/resume.pdf",
+    "updated": ""
+  },
+  "about": {
+    "paragraphs": [
+      "I am pursuing an MSc in Cyber Security and developing practical skills in cybersecurity, security monitoring, threat detection, digital forensics and governance.",
+      "I enjoy turning what I learn into hands-on work: building security tools, running lab investigations and documenting what I find, with the goal of growing into a SOC Analyst role."
+    ],
+    "interests": [
+      {
+        "icon": "monitor",
+        "label": "Security Operations Centre (SOC)"
+      },
+      {
+        "icon": "search",
+        "label": "SIEM and log analysis"
+      },
+      {
+        "icon": "alert",
+        "label": "Threat detection and incident response"
+      },
+      {
+        "icon": "network",
+        "label": "Network security"
+      },
+      {
+        "icon": "fingerprint",
+        "label": "Digital forensics"
+      },
+      {
+        "icon": "bug",
+        "label": "Vulnerability assessment"
+      },
+      {
+        "icon": "scale",
+        "label": "Governance, Risk and Compliance (GRC)"
+      }
+    ]
+  },
+  "resumeSection": {
+    "intro": "Explore my academic background, technical skills, cybersecurity projects and professional experience."
+  },
+  "contact": {
+    "text": "Open to SOC Analyst roles, cybersecurity internships and conversations about security. Reach out through any of the links below."
+  },
+  "seo": {
+    "title": "Dipangshu Dey | Cybersecurity · SOC Operations · GRC",
+    "description": "Portfolio of Dipangshu Dey, MSc Cyber Security student at NFSU Goa focused on SOC operations, threat detection, incident response and GRC."
+  }
+}

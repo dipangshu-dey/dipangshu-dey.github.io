@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dipangshu Dey | Cybersecurity · SOC Operations · GRC</title>
+  <meta name="description" content="Portfolio of Dipangshu Dey, MSc Cyber Security student at NFSU Goa focused on SOC operations, threat detection, incident response and GRC.">
+  <meta name="author" content="Dipangshu Dey">
+  <meta name="theme-color" content="#070a16">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dipangshu Dey | Cybersecurity · SOC Operations · GRC">
+  <meta property="og:description" content="MSc Cyber Security student focused on SOC operations, threat detection, incident response and GRC.">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/svg+xml" href="assets/images/logos/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"Dipangshu Dey","jobTitle":"Cybersecurity | SOC Operations | GRC","alumniOf":{"@type":"CollegeOrUniversity","name":"National Forensic Sciences University, Goa Campus"},"sameAs":["https://github.com/dipangshu-dey","https://www.linkedin.com/in/dipangshu-dey-251a80264"]}
+  </script>
+</head>
+<body>
+
+<!-- Welcome intro (shown once per week per browser, skippable) -->
+<div id="intro" class="intro" role="dialog" aria-label="Welcome">
+  <div class="intro__glow" aria-hidden="true"></div>
+  <div class="intro__inner">
+    <svg class="intro__logo" viewBox="0 0 64 56" fill="none" aria-hidden="true">
+      <defs><linearGradient id="ig" x1="0" y1="0" x2="64" y2="56" gradientUnits="userSpaceOnUse"><stop stop-color="#8b5cf6"/><stop offset="1" stop-color="#3b9cff"/></linearGradient></defs>
+      <path class="d d1" d="M8 8h13a20 20 0 0 1 0 40H8z" stroke="url(#ig)" stroke-width="5" stroke-linejoin="round" pathLength="1"/>
+      <path class="d d2" d="M30 8h13a20 20 0 0 1 0 40H30z" stroke="url(#ig)" stroke-width="5" stroke-linejoin="round" pathLength="1"/>
+    </svg>
+    <p class="intro__welcome">Welcome to My Portfolio</p>
+    <h2 class="intro__name">Dipangshu Dey</h2>
+    <p class="intro__sub">Cybersecurity | SOC Operations | GRC</p>
+  </div>
+  <button type="button" id="intro-skip" class="intro__skip">Skip intro</button>
+</div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+  <div class="container nav__row">
+    <a class="brand" href="#home" aria-label="Dipangshu Dey, home">
+      <img src="assets/images/logos/dd-logo.svg" alt="" width="40" height="36" class="brand__logo">
+      <span class="brand__text"><strong id="brand-name">Dipangshu Dey</strong><small>Cybersecurity Portfolio</small></span>
+    </a>
+    <nav aria-label="Primary" class="nav__links" id="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#blogs">Blogs &amp; Write-ups</a>
+      <a href="#soc-lab">SOC Home Lab</a>
+      <a href="#experience">Experience</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav__tools">
+      <a class="icon-btn" id="nav-github" href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub (opens in a new tab)"></a>
+      <a class="icon-btn" id="nav-linkedin" href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (opens in a new tab)"></a>
+      <button type="button" class="icon-btn nav__toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links"></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <canvas id="net" aria-hidden="true"></canvas>
+    <div class="container hero__grid">
+      <div class="hero__copy">
+        <p class="badge reveal"><span class="dot" aria-hidden="true"></span><span id="hero-badge">SOC Analyst | GRC | Cybersecurity</span></p>
+        <h1 class="reveal"><span id="hero-greeting">Hi, I'm</span> <span class="grad" id="hero-name">Dipangshu Dey</span></h1>
+        <p class="hero__headline reveal" id="hero-headline"></p>
+        <p class="hero__typing reveal" aria-label="Focus areas"><span id="typed"></span><span class="caret" aria-hidden="true"></span></p>
+        <p class="hero__lead reveal" id="hero-lead"></p>
+        <div class="hero__cta reveal" id="hero-cta"></div>
+        <div class="social reveal" id="hero-social"></div>
+      </div>
+      <div class="hero__photo reveal">
+        <figure class="photo">
+          <img id="hero-photo" src="assets/images/profile/profile-placeholder.svg" alt="Portrait of Dipangshu Dey" width="420" height="525" fetchpriority="high">
+        </figure>
+      </div>
+    </div>
+    <div class="container">
+      <div class="stats reveal" id="stats" aria-label="Portfolio at a glance"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="eyebrow">About me</p>
+        <h2>Building a career in <span class="grad">Cybersecurity</span></h2>
+      </header>
+      <div id="about-root" class="about"></div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="eyebrow">Education</p>
+        <h2>Academic <span class="grad">background</span></h2>
+      </header>
+      <div id="education-root" class="edu-list"></div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="eyebrow">Skills</p>
+        <h2>Technical <span class="grad">skills</span></h2>
+        <p class="section__sub">Tools and domains I work with.</p>
+      </header>
+      <div id="skills-root" class="skills"></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="eyebrow">Featured projects</p>
+        <h2><span class="grad">Projects</span></h2>
+        <p class="section__sub">Select a project to see its features, technologies, screenshots and links.</p>
+      </header>
+      <div id="projects-root" class="projects"></div>
+    </div>
+  </section>
+
+
+  <!-- BLOGS & WRITE-UPS -->
+  <section id="blogs" class="section">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="eyebrow">Knowledge base</p>
+        <h2>Blogs &amp; <span class="grad">Security Write-ups</span></h2>
+        <p class="section__sub">Machine walkthroughs, CTF write-ups, security research, SOC investigations and technical reports.</p>
+      </header>
+      <div class="blog-tools reveal">
+        <label class="sr-only" for="blog-search">Search articles</label>
+        <input id="blog-search" class="blog-search" type="search" placeholder="Search write-ups, reports and topics..." autocomplete="off">
+        <label class="sr-only" for="blog-category">Filter by category</label>
+        <select id="blog-category" class="blog-category">
+          <option value="all">All categories</option>
+        </select>
+      </div>
+      <div id="blogs-root" class="blogs-grid" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- SOC LAB -->
+  <section id="soc-lab" class="section">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="eyebrow">SOC home lab</p>
+        <h2>Hands-on <span class="grad">SOC lab experience</span></h2>
+        <p class="section__sub">Only activities I have actually completed appear here.</p>
+      </header>
+      <div id="labs-root"></div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="eyebrow">Experience</p>
+        <h2>Professional <span class="grad">experience</span></h2>
+      </header>
+      <div id="experience-root" class="timeline"></div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="eyebrow">Certifications &amp; achievements</p>
+        <h2>Proof of <span class="grad">learning</span></h2>
+        <p class="section__sub">CTF and practical challenges, professional certifications, and courses and training, kept in three separate categories.</p>
+      </header>
+      <div id="certs-root"></div>
+    </div>
+  </section>
+
+  <!-- GALLERY (only shown when data/gallery.json has collections) -->
+  <section id="gallery" class="section" hidden>
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="eyebrow">Gallery</p>
+        <h2>Moments &amp; <span class="grad">highlights</span></h2>
+      </header>
+      <div id="gallery-root" class="gallery-stack"></div>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume" class="section">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="eyebrow">Resume</p>
+        <h2>My <span class="grad">Resume</span></h2>
+      </header>
+      <div id="resume-root"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's connect and build something <span class="grad">secure.</span></h2>
+        <p class="section__sub" id="contact-text"></p>
+      </header>
+      <div id="contact-root" class="contact"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__row">
+    <div>
+      <p class="footer__name" id="footer-name">Dipangshu Dey</p>
+      <p class="footer__sub">Cybersecurity | SOC Operations | GRC</p>
+    </div>
+    <nav aria-label="Footer" class="footer__nav">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#blogs">Blogs</a><a href="#certifications">Certifications</a><a href="#resume">Resume</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="social" id="footer-social"></div>
+  </div>
+  <div class="container footer__copy">&copy; <span id="year"></span> <span id="footer-copy-name">Dipangshu Dey</span>. All rights reserved.</div>
+</footer>
+
+<!-- Detail modal (projects, skills) -->
+<dialog id="modal" class="dlg" aria-label="Details"></dialog>
+
+<!-- Lightbox (images + PDFs) -->
+<dialog id="lightbox" class="lb" aria-label="Image viewer">
+  <div class="lb__bar">
+    <span class="lb__count" id="lb-count"></span>
+    <div class="lb__tools">
+      <button type="button" class="icon-btn" id="lb-zoom-out" aria-label="Zoom out"></button>
+      <button type="button" class="icon-btn" id="lb-zoom-in" aria-label="Zoom in"></button>
+      <a class="icon-btn" id="lb-download" href="#" download aria-label="Download file"></a>
+      <button type="button" class="icon-btn" id="lb-close" aria-label="Close viewer"></button>
+    </div>
+  </div>
+  <button type="button" class="lb__nav lb__nav--prev" id="lb-prev" aria-label="Previous image"></button>
+  <div class="lb__stage" id="lb-stage"></div>
+  <button type="button" class="lb__nav lb__nav--next" id="lb-next" aria-label="Next image"></button>
+  <p class="lb__caption" id="lb-caption"></p>
+</dialog>
+
+<noscript><p class="noscript">This portfolio needs JavaScript enabled to load its content.</p></noscript>
+<div id="app-error" class="app-error" hidden></div>
+
+<script src="script.js" defer></script>
+</body>
+</html>

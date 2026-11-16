@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="400" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1a1546"/><stop offset="1" stop-color="#0b1022"/>
+    </linearGradient>
+    <linearGradient id="fg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#8b5cf6" stop-opacity=".55"/><stop offset="1" stop-color="#3b9cff" stop-opacity=".45"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg)"/>
+  <circle cx="200" cy="190" r="72" fill="url(#fg)"/>
+  <path d="M60 500c0-92 62-150 140-150s140 58 140 150z" fill="url(#fg)"/>
+  <text x="200" y="40" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="#a3a9c4" opacity=".8">Replace with assets/images/profile/profile.jpg</text>
+</svg>
